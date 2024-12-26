@@ -7,15 +7,16 @@
 }
 
 body {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 header {
   display: flex;
-  background-color: azure;
+  background-color: white;
   height: 80px;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .myntra_home {
@@ -53,7 +54,8 @@ header {
 
 .search_bar {
   height: 40px;
-  width: 400px;
+  min-height: 400px;
+  width: 30%;
   display: flex;
   align-items: center;
 }
@@ -71,4 +73,24 @@ header {
   flex-grow: 1;
   height: 40px;
   border: 0;
+}
+
+.action_bar {
+  min-width: 200px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action_icon {
+}
+
+.action_name {
+  font-size: 13px;
+  font-weight: 500;
 }
