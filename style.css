@@ -69,8 +69,7 @@ header {
 /* Flex layout for search bar, aligns items vertically and horizontally */
 .search_bar {
   height: 40px;
-  /* min-width: 400px; */
-  width: 30%;
+  width: 30%; /* Sets the width of the search bar */
   display: flex;
   align-items: center;
 }
@@ -92,7 +91,7 @@ header {
   border: 0; /* Removes default input border */
 }
 
-/* remove the default border that appears when an input box is clicked */
+/* Remove the default border when an input box is clicked */
 .search_input:focus {
   outline: none;
 }
@@ -119,21 +118,23 @@ header {
   font-weight: 500;
 }
 
-/* main  */
+/* Main Section */
 
+/* Banner Container: Displays promotional images */
 .banner_container {
   display: flex;
   width: 100vw;
   padding: 30px 50px 0 50px;
   box-sizing: border-box;
-
-  background: linear-gradient(#f5f5f6, #ffff);
+  background: linear-gradient(#f5f5f6, #ffff); /* Adds gradient background */
 }
 
+/* Banner Image Styling: Ensures each banner image takes up 50% width */
 .banner_image {
   width: 50%;
 }
 
+/* Sponsor Image Container */
 .sponser_image_Container {
   display: flex;
   justify-content: center;
@@ -142,6 +143,7 @@ header {
   padding: 0 30px;
 }
 
+/* Sponsor Image Styling: Defines width relative to viewport */
 .sponser_Image {
   width: 45vw;
 }
