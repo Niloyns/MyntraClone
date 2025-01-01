@@ -123,7 +123,7 @@ header {
 /* Banner Container: Displays promotional images */
 .banner_container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   padding: 23px 50px 0 50px;
   box-sizing: border-box;
   background: linear-gradient(#f5f5f6, #ffff); /* Adds gradient background */
@@ -131,6 +131,7 @@ header {
 
 /* Banner Image Styling: Ensures each banner image takes up 50% width */
 .banner_image {
+  box-sizing: border-box;
   width: 50%;
 }
 
@@ -158,4 +159,14 @@ header {
   height: auto;
   width: 12.4%;
   box-sizing: content-box;
+}
+
+.crezy_deal {
+  display: flex;
+  justify-content: center;
+}
+.crezyDeal_image {
+  height: auto;
+  width: 86vw;
+  justify-content: center;
 }
