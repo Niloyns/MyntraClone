@@ -69,6 +69,7 @@ header {
 /* Flex layout for search bar, aligns items vertically and horizontally */
 .search_bar {
   height: 40px;
+  min-width: 200px;
   width: 30%; /* Sets the width of the search bar */
   display: flex;
   align-items: center;
@@ -194,4 +195,10 @@ header {
 
 .categoties_item {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item_sale {
+  width: 250px;
 }
