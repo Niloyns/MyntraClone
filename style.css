@@ -155,7 +155,7 @@ header {
   color: #3e4152;
   letter-spacing: 0.15em;
   font-size: 1.8em;
-  margin: 50px 0 10px 30px;
+  margin: 80px 0 80px 30px;
   max-height: 5em;
   font-weight: 700;
 }
@@ -168,4 +168,16 @@ header {
 
 .item_sale {
   width: 250px;
+}
+
+.catagory_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.catagory_item {
+  width: 180px;
+  height: auto;
 }
