@@ -150,23 +150,48 @@ header {
   width: 42.5vw;
 }
 
+/* Container for bank offer images */
+/* Uses flexbox to align all images in a single row and centers them horizontally */
 .bank_offerContainer {
   display: flex;
-  justify-content: center; /* Center-aligns the images horizontally */
+  justify-content: center; /* Centers the images within the container */
 }
 
+/* Individual bank offer images */
+/* Maintains aspect ratio by setting height to auto */
+/* Sets each image width to 12.4% to fit multiple images in one row */
 .bank_offer {
   height: auto;
-  width: 12.4%;
-  box-sizing: content-box;
+  width: 12.4%; /* Responsive width to fit 8 images in one row */
+  box-sizing: content-box; /* Padding and border not included in the width/height */
 }
 
+/* Crazy deal section */
+/* Flexbox is used to center the deal image horizontally */
 .crezy_deal {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Centers the image within the section */
 }
+
+/* Crazy deal image */
+/* Maintains aspect ratio by setting height to auto */
+/* Width set to 86% of the viewport width to ensure responsiveness */
 .crezyDeal_image {
   height: auto;
-  width: 86vw;
-  justify-content: center;
+  width: 86vw; /* Makes the image responsive to the viewport width */
+  justify-content: center; /* No effect here; 'justify-content' only works on flex containers */
+}
+
+.categories_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.categoties_item {
+  display: flex;
 }
