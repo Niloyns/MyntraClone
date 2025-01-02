@@ -1,14 +1,12 @@
-/* Reset margin and padding for all elements, apply global box-sizing and font-family */
 * {
   margin: 0;
   padding: 0;
   font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
-  box-sizing: content-box; /* Makes the element's width/height include content only, excluding padding and border */
+  box-sizing: content-box; /* Width/height includes content only */
 }
 
 /* Header Section */
-/* Flexbox for horizontal layout, aligns items vertically and adds space between elements */
 header {
   display: flex;
   background-color: white;
@@ -17,126 +15,106 @@ header {
   align-items: center;
 }
 
-/* Logo Section */
-/* Sets the height of the Myntra logo */
+/* Logo */
 .myntra_home {
   height: 45px;
 }
 
-/* Adds margin to position the logo on the left */
 .logo_container {
   margin-left: 4%;
 }
 
-/* Action Bar Section (Profile, Wishlist, Bag) */
-/* Adds right margin to position the action bar on the right */
+/* Action Bar */
 .action_bar {
   margin-right: 4%;
 }
 
-/* Navigation Bar Section */
-/* Flex layout for navigation links, ensures spacing between items */
+/* Navigation Bar */
 .nav_bar {
   display: flex;
-  min-width: 500px; /* Minimum width for consistent layout */
+  min-width: 500px;
   justify-content: space-between;
 }
 
-/* Styling for navigation links */
 .nav_bar a {
   font-size: 13px;
-  letter-spacing: 0.3px; /* Adds spacing between characters */
+  letter-spacing: 0.3px;
   color: black;
-  font-weight: 650; /* Makes the text bold */
-  text-transform: uppercase; /* Transforms text to uppercase */
-  text-decoration: none; /* Removes underline from links */
-  padding: 28px 0; /* Adds vertical padding */
-  border-bottom: 5px solid white; /* Bottom border for hover effect */
+  font-weight: 650;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0;
+  border-bottom: 5px solid white;
 }
 
-/* Hover effect for navigation links */
 .nav_bar a:hover {
-  border-bottom: 5px solid #f54e77; /* Adds pink border on hover */
+  border-bottom: 5px solid #f54e77;
 }
 
-/* Styling for 'new' text above 'Studio' link */
+/* 'New' text above Studio */
 .nav_bar a sup {
   color: red;
   font-size: 10px;
 }
 
-/* Search Bar Section */
-/* Flex layout for search bar, aligns items vertically and horizontally */
+/* Search Bar */
 .search_bar {
   height: 40px;
   min-width: 200px;
-  width: 30%; /* Sets the width of the search bar */
+  width: 30%;
   display: flex;
   align-items: center;
 }
 
-/* Search icon styling, adds background color and padding */
 .search_icon {
   height: 20px;
   padding: 10px;
   background-color: #f5f5f6;
 }
 
-/* Search input field styling */
 .search_input {
-  box-sizing: content-box; /* Ensures padding doesn't affect width */
   color: #696e79;
   background-color: #f5f5f6;
-  flex-grow: 1; /* Allows input to grow and fill available space */
+  flex-grow: 1;
   height: 40px;
-  border: 0; /* Removes default input border */
+  border: 0;
 }
 
-/* Remove the default border when an input box is clicked */
 .search_input:focus {
   outline: none;
 }
 
-/* Action Bar (Profile, Wishlist, Bag) */
-/* Flexbox for horizontal alignment with even spacing between items */
+/* Action Bar Items */
 .action_bar {
   min-width: 200px;
-  justify-content: space-around; /* Evenly distributes space between items */
+  justify-content: space-around;
   display: flex;
 }
 
-/* Container for each action item (Profile, Wishlist, Bag) */
-/* Vertical alignment and spacing */
 .action_container {
   display: flex;
-  flex-direction: column; /* Stacks icon and text vertically */
-  align-items: center; /* Centers content horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Styling for action labels (Profile, Wishlist, Bag) */
 .action_name {
   font-size: 13px;
   font-weight: 400;
 }
 
 /* Main Section */
-
-/* Banner Container: Displays promotional images */
 .banner_container {
   display: flex;
   width: 100%;
   padding: 23px 50px 0 50px;
   box-sizing: border-box;
-  background: linear-gradient(#f5f5f6, #ffff); /* Adds gradient background */
+  background: linear-gradient(#f5f5f6, #ffff);
 }
 
-/* Banner Image Styling: Ensures each banner image takes up 50% width */
 .banner_image {
-  box-sizing: border-box;
   width: 50%;
 }
 
-/* Sponsor Image Container */
 .sponser_image_Container {
   display: flex;
   justify-content: center;
@@ -146,41 +124,30 @@ header {
   box-sizing: border-box;
 }
 
-/* Sponsor Image Styling: Defines width relative to viewport */
 .sponser_Image {
   width: 42.5vw;
 }
 
-/* Container for bank offer images */
-/* Uses flexbox to align all images in a single row and centers them horizontally */
+/* Bank Offers */
 .bank_offerContainer {
   display: flex;
-  justify-content: center; /* Centers the images within the container */
+  justify-content: center;
 }
 
-/* Individual bank offer images */
-/* Maintains aspect ratio by setting height to auto */
-/* Sets each image width to 12.4% to fit multiple images in one row */
 .bank_offer {
-  height: auto;
-  width: 12.4%; /* Responsive width to fit 8 images in one row */
-  box-sizing: content-box; /* Padding and border not included in the width/height */
+  width: 12.4%;
+  box-sizing: content-box;
 }
 
-/* Crazy deal section */
-/* Flexbox is used to center the deal image horizontally */
+/* Crazy Deal Section */
 .crezy_deal {
   display: flex;
-  justify-content: center; /* Centers the image within the section */
+  justify-content: center;
 }
 
-/* Crazy deal image */
-/* Maintains aspect ratio by setting height to auto */
-/* Width set to 86% of the viewport width to ensure responsiveness */
 .crezyDeal_image {
+  width: 86vw;
   height: auto;
-  width: 86vw; /* Makes the image responsive to the viewport width */
-  justify-content: center; /* No effect here; 'justify-content' only works on flex containers */
 }
 
 .categories_heading {
