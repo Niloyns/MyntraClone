@@ -175,6 +175,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  margin-bottom: 50px;
 }
 
 .catagory_item {
@@ -182,11 +183,17 @@ header {
   height: auto;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fafbfc;
+}
+
 .footer_container {
-  background-color: #f5f5f6;
   padding: 30px 0 40px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .footer_colum {
@@ -197,22 +204,27 @@ header {
 
 .footer_colum a {
   text-decoration: none;
+  font-size: 14px;
   color: #696b79;
   padding-bottom: 5px;
 }
 
 .footer_colum h3 {
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
+}
+
+#useful_link {
+  margin-top: 25px;
 }
 
 .app_logo {
   height: 42px;
 }
 
-.keep_in_touch {
-  margin: 20px 0 5px 0;
+.keep_in_touch h3 {
+  margin: 20px 0 10px;
 }
 
 .socialmedia_icon {
@@ -221,5 +233,9 @@ header {
 }
 
 .socialmedia_icon i {
-  margin-right: 5px;
+  margin-right: 10px;
+}
+
+.footer_promises {
+  width: 300px;
 }
