@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@ header {
   align-items: center;
 }
 
-/* Logo */
+/* Logo Section */
 .myntra_home {
   height: 45px;
 }
@@ -51,7 +52,7 @@ header {
   border-bottom: 5px solid #f54e77;
 }
 
-/* 'New' text above Studio */
+/* Highlight 'New' above Studio */
 .nav_bar a sup {
   color: red;
   font-size: 10px;
@@ -183,6 +184,7 @@ header {
   height: auto;
 }
 
+/* Footer Section */
 footer {
   display: flex;
   justify-content: center;
