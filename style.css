@@ -250,7 +250,7 @@ footer {
   display: flex;
   margin-bottom: 20px;
 }
-.promises_img img {
-  width: 50px;
-  margin-right: 5px;
+.footer_promises .promises_img img {
+  width: 50px !important;
+  margin-right: 5px !important;
 }
