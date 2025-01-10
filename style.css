@@ -164,7 +164,6 @@ header {
 .categoties_item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .item_sale {
@@ -240,4 +239,18 @@ footer {
 
 .footer_promises {
   width: 300px;
+  color: #696b79;
+}
+
+.footer_promises strong {
+  color: #3e4152;
+}
+
+.promises_img {
+  display: flex;
+  margin-bottom: 20px;
+}
+.promises_img img {
+  width: 50px;
+  margin-right: 5px;
 }
