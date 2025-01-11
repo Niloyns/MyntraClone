@@ -60,3 +60,11 @@ myntra-clone/
 ├── README.md               # Project documentation
 └── .gitignore              # Ignored files and folders
 ```
+
+### Contact
+
+For any queries or suggestions, please feel free to reach out:
+
+- Email: Niloysarkar1998@gmail.com
+- LinkedIn: linkedin.com/in/niloy-ns
+- GitHub: [Your GitHub](https://github.com/niloyns)
